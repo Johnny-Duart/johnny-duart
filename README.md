@@ -1,49 +1,50 @@
 # Olá, eu sou o Jonathan Duarte 👋
 
-Estudante de **Ciência da Computação** (Anhanguera Educacional) e Técnico em Manutenção e Suporte em TI. Desenvolvedor focado em ecossistema **Python**, **APIs RESTful** e **Inteligência Artificial aplicada (RAG)**.
+Estudante de **Ciência da Computação** (Anhanguera Educacional) e Técnico em Manutenção e Suporte em TI. Desenvolvedor com foco em **Back-End (Python)**, desenvolvimento de **APIs RESTful** e **Inteligência Artificial aplicada (RAG)**.
 
-Busco aplicar arquitetura limpa, código manutenível e resolução de problemas de negócio reais através de software.
+Tenho foco em modelagem de dados, regras de negócio sólidas e arquitetura de software, utilizando ferramentas modernas de IA para acelerar o aprendizado contínuo e a prototipação de interfaces completas.
 
 ---
 
 ### 🛠️ Stack Principal & Ferramentas
 
-* **Linguagens:** Python, SQL, JavaScript/TypeScript, HTML5/CSS3
-* **Backend & APIs:** Django, Django REST Framework, Flask, FastAPI
-* **Frontend:** React, Vite, Html, CSS
-* **IA & Vetores:** LangChain, Ollama, FAISS, Embeddings
-* **Bancos & Mensageria:** PostgreSQL, SQLite, SQLAlchemy, Django Q (Background Tasks), Redis, Docker
-* **Engenharia de Software:** Git/GitHub, Autenticação JWT/RBAC, Testes com Pytest, OpenAPI/Swagger
+* **Foco Principal (Back-End):** Python, Django, Django REST Framework, Flask, SQL (PostgreSQL, SQLite)
+* **Arquitetura & Boas Práticas:** Modelagem de Banco, Autenticação JWT, Controle de Acesso (RBAC), Testes com Pytest, Documentação Swagger/OpenAPI
+* **IA & Engenharia de Dados:** LangChain, Ollama, FAISS (Bancos Vetoriais), Pandas, Matplotlib
+* **Processamento & Infra:** Django Q (Tarefas Assíncronas/Filas), Docker (básico/dev), Git & GitHub
+* **Front-End & Integração:** Consumo de APIs REST com React, Vite, Axios, HTML5 e TailwindCSS (foco em prototipagem e integração funcional com o backend)
 
 ---
 
 ### 🚀 Projetos em Destaque
 
 #### 🏥 [Sistema Clínico Multi-Tenant & Agendamento Inteligente](https://github.com/Johnny-Duart/sistema-clinico-multitenant)
-Plataforma clínica multi-especialidade com isolamento lógico de dados por clínica (Multi-tenancy por coluna), motor dinâmico de slots de consulta com prevenção de *double-booking* em tempo real (concorrência HTTP 409) e autenticação JWT com fila assíncrona de refresh no Axios.
-* **Tecnologias:** Python, Django, Django REST Framework, React, Vite, JWT.
-* **Destaques:** Multi-tenancy real, regras de concorrência atômica, portal do paciente e painel com temas dinâmicos por especialidade.
+Plataforma clínica multi-especialidade construída para resolver problemas reais de gestão e agendamento médico.
+* **Minha Atuação no Back-End:** Desenvolvi a arquitetura central da API em Django REST Framework, modelagem do banco com isolamento lógico por clínica (multi-tenancy por coluna), motor dinâmico de slots de horários e prevenção de conflitos de agendamento (*double-booking*) via transações atômicas com tratamento de concorrência (`HTTP 409 Conflict`).
+* **Front-End & Integração:** Prototipação e integração de telas em React/Vite com autenticação JWT e interceptor Axios para renovação transparente de tokens.
+* **Tecnologias:** Python, Django, DRF, React, Vite, JWT, SQLite/PostgreSQL.
 
 #### 🤖 [Oráculo IA — Chatbot com RAG + Integração WhatsApp](https://github.com/Johnny-Duart/Oraculo_IA)
-Sistema corporativo de IA que permite treinar uma base de conhecimento personalizada (via PDFs, textos e scraping de sites) e responder usuários em tempo real tanto via web quanto diretamente pelo WhatsApp.
-* **Tecnologias:** Django, LangChain, Ollama, FAISS, Django Q, Evolution API (Docker).
-* **Destaques:** Processamento assíncrono em background para não travar a aplicação, busca vetorial e buffer de mensagens para evitar respostas fragmentadas.
+Aplicação corporativa de IA para consulta inteligente em documentos e atendimento automatizado via mensageria.
+* **Minha Atuação no Back-End & IA:** Construí todo o pipeline de RAG (extração de PDFs/sites, chunking e indexação vetorial no FAISS), integração com LLMs locais via Ollama, filas de tarefas em background com Django Q para não travar a aplicação web e webhook com buffer de mensagens integrado à Evolution API.
+* **Tecnologias:** Python, Django, LangChain, Ollama, FAISS, Django Q, Docker, Evolution API.
 
 #### 🌶️ [Flask Blog API — RESTful com RBAC e Testes](https://github.com/Johnny-Duart/flask-blog-api)
-API RESTful estruturada em camadas seguindo padrões de mercado, com controle de acesso baseado em papéis (RBAC), serialização com Marshmallow e cobertura de testes automatizados com Pytest.
-* **Tecnologias:** Flask, SQLAlchemy, Alembic, Flask-JWT-Extended, Pytest, Swagger/OpenAPI.
-* **Destaques:** Testes unitários e de integração com banco em memória, hash de senhas com Bcrypt e documentação interativa.
+API RESTful desenvolvida do zero para consolidar boas práticas de arquitetura em camadas no ecossistema Flask.
+* **Minha Atuação no Back-End:** Implementação da arquitetura (controllers, models, schemas), autenticação JWT, controle de acesso baseado em papéis (`@requires_role`), serialização com Marshmallow e suíte de testes unitários e de integração com Pytest e banco em memória.
+* **Tecnologias:** Python, Flask, SQLAlchemy, Marshmallow, Pytest, Swagger/OpenAPI.
 
 #### 📊 [Análise de Telefonia Móvel no Brasil — Dados Anatel](https://github.com/Johnny-Duart/Analise-Anatel)
-Análise Exploratória de Dados (EDA) investigando a evolução dos acessos móveis (2G, 3G, 4G), migração tecnológica e desigualdades regionais de infraestrutura no Brasil a partir de microdados públicos.
+Projeto de Análise Exploratória de Dados (EDA) focado na evolução da infraestrutura de telecomunicações no país.
+* **Atuação:** Limpeza e transformação de microdados públicos da Anatel, análise de migração tecnológica (2G/3G para 4G) e visualização de desigualdades regionais.
 * **Tecnologias:** Python, Pandas, Matplotlib, Jupyter Notebook.
 
 ---
 
-### 📁 Outros Projetos e Repositórios
+### 📁 Outros Projetos
 
-* 🏦 [Sistema Bancário POO](https://github.com/Johnny-Duart/git-projeto-bancario-2.0) — Aplicação prática dos pilares da Orientação a Objetos (Herança, Polimorfismo, Classes Abstratas).
-* 🐍 [Laboratório de Estudos Python](https://github.com/Johnny-Duart/Estudos) — Automações, scripts e testes de bibliotecas nativas.
+* 🏦 [Sistema Bancário POO](https://github.com/Johnny-Duart/git-projeto-bancario-2.0) — Aplicação CLI focada nos pilares de Orientação a Objetos (Herança, Polimorfismo, Classes Abstratas).
+* 🐍 [Laboratório de Estudos Python](https://github.com/Johnny-Duart/Estudos) — Automações, scripts e testes práticos com a biblioteca padrão do Python.
 
 ---
 
