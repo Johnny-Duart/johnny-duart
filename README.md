@@ -1,63 +1,54 @@
 # Olá, eu sou o Jonathan Duarte 👋
 
-Entusiasta de tecnologia focado em desenvolvimento de software com **Python**. Atualmente, curso Ciência da Computação na Anhanguera Educacional e Técnico em Manutenção e Suporte em TI no João XXIII, motivado a resolver problemas reais através de código limpo, arquitetura sólida e inteligência de dados. 
+Estudante de **Ciência da Computação** (Anhanguera Educacional) e Técnico em Manutenção e Suporte em TI. Desenvolvedor focado em ecossistema **Python**, **APIs RESTful** e **Inteligência Artificial aplicada (RAG)**.
 
-Dedico meus estudos e projetos ao ecossistema de **Inteligência Artificial (RAG)**, **Desenvolvimento de APIs RESTful** e **Análise de Dados**.
+Busco aplicar arquitetura limpa, código manutenível e resolução de problemas de negócio reais através de software.
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas
+### 🛠️ Stack Principal & Ferramentas
 
-* **Linguagens:** Python, SQL, HTML5
-* **Frameworks & Web:** Django, Flask
-* **IA & Dados:** LangChain, Ollama, FAISS, Pandas, Matplotlib, Jupyter Notebook
-* **Bancos de Dados & Assincronismo:** SQLite, SQLAlchemy, Django Q, PostgreSQL
-* **Ferramentas & Práticas:** Git, GitHub, REST APIs (Swagger/OpenAPI), Programação Orientada a Objetos (POO)
+* **Linguagens:** Python, SQL, JavaScript/TypeScript, HTML5/CSS3
+* **Backend & APIs:** Django, Django REST Framework, Flask, FastAPI
+* **Frontend:** React, Vite, TailwindCSS
+* **IA & Vetores:** LangChain, Ollama, FAISS, Embeddings
+* **Bancos & Mensageria:** PostgreSQL, SQLite, SQLAlchemy, Django Q (Background Tasks), Redis, Docker
+* **Engenharia de Software:** Git/GitHub, Autenticação JWT/RBAC, Testes com Pytest, OpenAPI/Swagger
 
 ---
 
 ### 🚀 Projetos em Destaque
 
-#### 🤖 [Oráculo IA — Chatbot com RAG](https://github.com/Johnny-Duart/Oraculo_IA)
-Sistema web corporativo que permite treinar uma IA personalizada a partir de sites, textos e PDFs usando técnicas de *Retrieval-Augmented Generation* (RAG).
-* **Tecnologias:** Django, LangChain, Ollama, FAISS, Django Q, BeautifulSoup.
-* **Diferenciais:** Processamento assíncrono em background, vetorização de dados e controle de acesso baseado em papéis (RBAC).
+#### 🏥 [Sistema Clínico Multi-Tenant & Agendamento Inteligente](https://github.com/Johnny-Duart/sistema-clinico-multitenant)
+Plataforma clínica multi-especialidade com isolamento lógico de dados por clínica (Multi-tenancy por coluna), motor dinâmico de slots de consulta com prevenção de *double-booking* em tempo real (concorrência HTTP 409) e autenticação JWT com fila assíncrona de refresh no Axios.
+* **Tecnologias:** Python, Django, Django REST Framework, React, Vite, JWT.
+* **Destaques:** Multi-tenancy real, regras de concorrência atômica, portal do paciente e painel com temas dinâmicos por especialidade.
 
-#### 🌶️ [Flask Blog API](https://github.com/Johnny-Duart/flask-blog-api)
-API RESTful robusta para gerenciamento de usuários e posts, estruturada com boas práticas de arquitetura em camadas e segurança.
-* **Tecnologias:** Flask, Flask-JWT-Extended, SQLAlchemy, Marshmallow, APISpec/Swagger.
-* **Diferenciais:** Autenticação JWT, senhas criptografadas com Bcrypt e documentação automatizada via Swagger.
+#### 🤖 [Oráculo IA — Chatbot com RAG + Integração WhatsApp](https://github.com/Johnny-Duart/Oraculo_IA)
+Sistema corporativo de IA que permite treinar uma base de conhecimento personalizada (via PDFs, textos e scraping de sites) e responder usuários em tempo real tanto via web quanto diretamente pelo WhatsApp.
+* **Tecnologias:** Django, LangChain, Ollama, FAISS, Django Q, Evolution API (Docker).
+* **Destaques:** Processamento assíncrono em background para não travar a aplicação, busca vetorial e buffer de mensagens para evitar respostas fragmentadas.
+
+#### 🌶️ [Flask Blog API — RESTful com RBAC e Testes](https://github.com/Johnny-Duart/flask-blog-api)
+API RESTful estruturada em camadas seguindo padrões de mercado, com controle de acesso baseado em papéis (RBAC), serialização com Marshmallow e cobertura de testes automatizados com Pytest.
+* **Tecnologias:** Flask, SQLAlchemy, Alembic, Flask-JWT-Extended, Pytest, Swagger/OpenAPI.
+* **Destaques:** Testes unitários e de integração com banco em memória, hash de senhas com Bcrypt e documentação interativa.
 
 #### 📊 [Análise de Telefonia Móvel no Brasil — Dados Anatel](https://github.com/Johnny-Duart/Analise-Anatel)
-Projeto de Análise Exploratória de Dados (EDA) focado na evolução do mercado de telecomunicações brasileiro, identificando desigualdades regionais e transições tecnológicas (2G/3G para 4G).
+Análise Exploratória de Dados (EDA) investigando a evolução dos acessos móveis (2G, 3G, 4G), migração tecnológica e desigualdades regionais de infraestrutura no Brasil a partir de microdados públicos.
 * **Tecnologias:** Python, Pandas, Matplotlib, Jupyter Notebook.
-* **Diferenciais:** Limpeza de dados públicos reais e geração de insights estratégicos sobre infraestrutura nacional.
 
 ---
 
-### 📁 Outros Repositórios
+### 📁 Outros Projetos e Repositórios
 
-* 🏦 [Sistema Bancário em Python](https://github.com/Johnny-Duart/seu-repo-banco) - Aplicação CLI aplicando conceitos avançados de POO, classes abstratas, herança e decorators.
-* 🐍 [Estudos e Testes em Python](https://github.com/Johnny-Duart/Estudos) - Laboratório pessoal de testes com módulos nativos (`pathlib`, `datetime`), automações e desafios de lógica.
-
----
-
-### 📈 Estatísticas e Atividades
-
-#### 📊 Métricas de Código (Gerais)
-![Último Commit](https://img.shields.io/github/last-commit/Johnny-Duart/Oraculo_IA?style=flat-square&logo=github&label=%C3%9Altimo%20Commit%20(Or%C3%A1culo)&color=blue)
-![Seguidores](https://img.shields.io/github/followers/Johnny-Duart?style=flat-square&logo=github&label=Seguidores&color=green)
-
-#### 🛠️ Tecnologias e Métricas
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+* 🏦 [Sistema Bancário POO](https://github.com/Johnny-Duart/git-projeto-bancario-2.0) — Aplicação prática dos pilares da Orientação a Objetos (Herança, Polimorfismo, Classes Abstratas).
+* 🐍 [Laboratório de Estudos Python](https://github.com/Johnny-Duart/Estudos) — Automações, scripts e testes de bibliotecas nativas.
 
 ---
 
 ### 🤝 Conecte-se Comigo
 
-* **GitHub:** [@Johnny-Duart](https://github.com/Johnny-Duart)
 * **LinkedIn:** [Johnny Duarte](https://linkedin.com/in/johnny-duart)
+* **GitHub:** [@Johnny-Duart](https://github.com/Johnny-Duart)
 * **E-mail:** devjonathanduarte@gmail.com
