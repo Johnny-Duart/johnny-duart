@@ -10,7 +10,7 @@ Busco aplicar arquitetura limpa, código manutenível e resolução de problemas
 
 * **Linguagens:** Python, SQL, JavaScript/TypeScript, HTML5/CSS3
 * **Backend & APIs:** Django, Django REST Framework, Flask, FastAPI
-* **Frontend:** React, Vite, TailwindCSS
+* **Frontend:** React, Vite, Html, CSS
 * **IA & Vetores:** LangChain, Ollama, FAISS, Embeddings
 * **Bancos & Mensageria:** PostgreSQL, SQLite, SQLAlchemy, Django Q (Background Tasks), Redis, Docker
 * **Engenharia de Software:** Git/GitHub, Autenticação JWT/RBAC, Testes com Pytest, OpenAPI/Swagger
